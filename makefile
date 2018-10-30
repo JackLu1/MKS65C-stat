@@ -1,5 +1,5 @@
 all: stat.c
-	gcc stat.c
+	gcc stat.c -o filestat
 
 run: all
-	./a.out stat.c
+	./filestat stat.c
